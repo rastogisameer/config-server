@@ -1,0 +1,13 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///D:\Sameer\Workspace3\config-repo
+          clone-on-startup: true
+security:
+  user:
+    name: user
+    password: 3e64d803-d435-4b78-a87a-c38ae7f454c8
